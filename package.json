@@ -1,0 +1,10 @@
+{
+  "name": "unis-icons",
+  "version": "1.0.0",
+  "description": "SVG-based React icons components",
+  "main": "index.js",
+  "repository": "git@github.com:unicorn-84/unis-icons.git",
+  "author": "unicorn-84 <unicorn-84@ya.ru> (https://github.com/unicorn-84)",
+  "license": "MIT",
+  "private": false
+}
