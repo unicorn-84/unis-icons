@@ -1,10 +1,43 @@
 {
-  "name": "unis-icons",
-  "version": "1.0.0",
+  "name": "@web-uni/unis-icons",
+  "version": "0.0.0-development",
   "description": "SVG-based React icons components",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "reactjs",
+    "icons",
+    "svg",
+    "components"
+  ],
   "repository": "git@github.com:unicorn-84/unis-icons.git",
   "author": "unicorn-84 <unicorn-84@ya.ru> (https://github.com/unicorn-84)",
+  "bugs": {
+    "url": "https://github.com/unicorn-84/unis-icons/issues"
+  },
+  "homepage": "https://unicorn-84.github.io/unis-icons",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "cm": "cz",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@svgr/cli": "6.3.1",
+    "cz-conventional-changelog": "3.3.0",
+    "semantic-release": "^19.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
