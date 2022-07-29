@@ -1,7 +1,7 @@
 {
   "name": "@web-uni/unis-icons",
   "version": "0.0.0-development",
-  "description": "SVG-based React icons components",
+  "description": "SVG-based ReactJS icon components",
   "type": "module",
   "exports": {
     ".": "./lib/index.js"
