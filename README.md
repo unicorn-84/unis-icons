@@ -2,7 +2,7 @@
 
 > SVG-based ReactJS icon components.
 
-[![version](https://img.shields.io/npm/v/@web-uni/unis-icons)](https://www.npmjs.com/package/@web-uni/unis-icons) [![build workflow](https://github.com/unicorn-84/unis-icons/actions/workflows/build.yml/badge.svg)](https://github.com/unicorn-84/unis-icons/actions/workflows/build.yml) [![codecov](https://codecov.io/gh/unicorn-84/unis-icons/branch/master/graph/badge.svg?token=JGF2MPS3M9)](https://codecov.io/gh/unicorn-84/unis-icons) [![MIT license](https://img.shields.io/github/license/unicorn-84/unis-icons)](https://github.com/unicorn-84/unis-icons/blob/master/LICENSE) [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+[![version](https://img.shields.io/npm/v/@web-uni/unis-icons)](https://www.npmjs.com/package/@web-uni/unis-icons) [![build workflow](https://github.com/unicorn-84/unis-icons/actions/workflows/build.yml/badge.svg)](https://github.com/unicorn-84/unis-icons/actions/workflows/build.yml) [![codecov](https://codecov.io/gh/unicorn-84/unis-icons/branch/master/graph/badge.svg?token=AUZXR8T7PU)](https://codecov.io/gh/unicorn-84/unis-icons) [![MIT license](https://img.shields.io/github/license/unicorn-84/unis-icons)](https://github.com/unicorn-84/unis-icons/blob/master/LICENSE) [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
 ## What it is
 
