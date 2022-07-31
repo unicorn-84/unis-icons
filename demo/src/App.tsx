@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { ArrowArcLeft } from '../../src';
+import { ArrowArcRight } from '../../src';
 
 function App() {
   return (
     <div className="max-w-xs flex">
-      <ArrowArcLeft size="xs" />
-      <ArrowArcLeft />
-      <ArrowArcLeft size="md" />
+      <ArrowArcRight size="xs" />
+      <ArrowArcRight />
+      <ArrowArcRight size="md" />
     </div>
   );
 }
