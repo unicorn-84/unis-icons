@@ -7,7 +7,6 @@ function App() {
       <ArrowArcLeft size="xs" />
       <ArrowArcLeft />
       <ArrowArcLeft size="md" />
-      <ArrowArcRight />
     </div>
   );
 }
