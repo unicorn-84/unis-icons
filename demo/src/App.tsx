@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ArrowArcLeft, ArrowArcRight } from '../../src';
+import { ArrowArcLeft } from '../../src';
 
 function App() {
   return (
