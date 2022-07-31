@@ -18,6 +18,9 @@
     "svg",
     "components"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "git@github.com:unicorn-84/unis-icons.git",
   "author": "unicorn-84 <unicorn-84@ya.ru> (https://github.com/unicorn-84)",
   "bugs": {
