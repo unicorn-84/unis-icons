@@ -1,0 +1,8 @@
+{
+  "typescript": true,
+  "outDir": "./src/components",
+  "ignoreExisting": true,
+  "replaceAttrValues": {
+    "#101828": "currentColor"
+  }
+}
