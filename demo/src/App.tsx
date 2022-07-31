@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { ArrowBendLeftDown } from '../../src';
+import { ArrowBendLeftUp } from '../../src';
 
 function App() {
   return (
     <div className="max-w-xs flex">
-      <ArrowBendLeftDown size="xs" />
-      <ArrowBendLeftDown />
-      <ArrowBendLeftDown size="md" />
+      <ArrowBendLeftUp size="xs" />
+      <ArrowBendLeftUp />
+      <ArrowBendLeftUp size="md" />
     </div>
   );
 }
