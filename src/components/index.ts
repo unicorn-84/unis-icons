@@ -8,4 +8,5 @@ export { default as ArrowBendLeftDown } from './ArrowBendLeftDown.js';
 export { default as ArrowBendLeftUp } from './ArrowBendLeftUp.js';
 export { default as ArrowBendRightDown } from './ArrowBendRightDown.js';
 export { default as ArrowBendRightUp } from './ArrowBendRightUp.js';
+export { default as ArrowBendUpLeft } from './ArrowBendUpLeft.js';
 export { default as ArrowBendUpRight } from './ArrowBendUpRight.js';
