@@ -3,7 +3,7 @@ import * as UnisIcons from '../../src';
 
 function App() {
   return (
-    <div className="m-auto max-w-sm p-4 flex justify-center text-gray-900 space-x-2 flex-wrap">
+    <div className="m-auto max-w-md p-4 flex justify-center text-gray-900 space-x-2 flex-wrap">
       <UnisIcons.ArrowArcLeft />
       <UnisIcons.ArrowArcRight />
       <UnisIcons.ArrowBendDoubleUpLeft />
@@ -12,6 +12,12 @@ function App() {
       <UnisIcons.ArrowBendDownRight />
       <UnisIcons.ArrowBendLeftDown />
       <UnisIcons.ArrowBendLeftUp />
+      <UnisIcons.ArrowBendRightDown />
+      <UnisIcons.ArrowBendRightUp />
+      <UnisIcons.ArrowBendUpLeft />
+      <UnisIcons.ArrowBendUpRight />
+      <UnisIcons.ArrowCircleDown />
+      <UnisIcons.ArrowCircleDownLeft />
     </div>
   );
 }
