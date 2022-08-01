@@ -161,3 +161,11 @@ describe('ArrowCircleUpRight', () => {
     expect(screen.getByTestId('test')).toBeVisible();
   });
 });
+
+describe('ArrowClockwise', () => {
+  test('should render correctly', async () => {
+    render(<UnisIcons.ArrowClockwise data-testid="test" />);
+
+    expect(screen.getByTestId('test')).toBeVisible();
+  });
+});

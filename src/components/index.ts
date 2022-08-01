@@ -18,3 +18,4 @@ export { default as ArrowCircleRight } from './ArrowCircleRight.js';
 export { default as ArrowCircleUp } from './ArrowCircleUp.js';
 export { default as ArrowCircleUpLeft } from './ArrowCircleUpLeft.js';
 export { default as ArrowCircleUpRight } from './ArrowCircleUpRight.js';
+export { default as ArrowClockwise } from './ArrowClockwise.js';
