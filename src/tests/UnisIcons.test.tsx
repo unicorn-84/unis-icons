@@ -297,3 +297,11 @@ describe('ArrowFatLeft', () => {
     expect(screen.getByTestId('test')).toBeVisible();
   });
 });
+
+describe('ArrowFatLineDown', () => {
+  test('should render correctly', async () => {
+    render(<UnisIcons.ArrowFatLineDown data-testid="test" />);
+
+    expect(screen.getByTestId('test')).toBeVisible();
+  });
+});
