@@ -114,4 +114,12 @@ describe('UnisIcons', () => {
       expect(screen.getByTestId('test')).toBeVisible();
     });
   });
+
+  describe('ArrowCircleDownRight', () => {
+    test('should render correctly', async () => {
+      render(<UnisIcons.ArrowCircleDownRight data-testid="test" />);
+
+      expect(screen.getByTestId('test')).toBeVisible();
+    });
+  });
 });
