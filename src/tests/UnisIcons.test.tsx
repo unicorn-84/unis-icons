@@ -193,3 +193,11 @@ describe('ArrowDownLeft', () => {
     expect(screen.getByTestId('test')).toBeVisible();
   });
 });
+
+describe('ArrowDownRight', () => {
+  test('should render correctly', async () => {
+    render(<UnisIcons.ArrowDownRight data-testid="test" />);
+
+    expect(screen.getByTestId('test')).toBeVisible();
+  });
+});

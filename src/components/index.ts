@@ -22,3 +22,4 @@ export { default as ArrowClockwise } from './ArrowClockwise.js';
 export { default as ArrowCounterClockwise } from './ArrowCounterClockwise.js';
 export { default as ArrowDown } from './ArrowDown.js';
 export { default as ArrowDownLeft } from './ArrowDownLeft.js';
+export { default as ArrowDownRight } from './ArrowDownRight.js';
