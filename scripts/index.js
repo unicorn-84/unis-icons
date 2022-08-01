@@ -67,7 +67,7 @@ export default App;\n`
       );
 
       execSync(
-        `yarn svgr && yarn test && git add . && git cm -m "feat(components): add ${name}"`
+        `yarn svgr && git add . && git cm -m "feat(components): add ${name}"`
       );
     });
   } catch (err) {
