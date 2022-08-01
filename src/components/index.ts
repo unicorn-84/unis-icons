@@ -24,3 +24,4 @@ export { default as ArrowDown } from './ArrowDown.js';
 export { default as ArrowDownLeft } from './ArrowDownLeft.js';
 export { default as ArrowDownRight } from './ArrowDownRight.js';
 export { default as ArrowElbowDownLeft } from './ArrowElbowDownLeft.js';
+export { default as ArrowElbowDownRight } from './ArrowElbowDownRight.js';
