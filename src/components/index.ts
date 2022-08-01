@@ -31,3 +31,4 @@ export { default as ArrowElbowLeftUp } from './ArrowElbowLeftUp.js';
 export { default as ArrowElbowRight } from './ArrowElbowRight.js';
 export { default as ArrowElbowRightDown } from './ArrowElbowRightDown.js';
 export { default as ArrowElbowRightUp } from './ArrowElbowRightUp.js';
+export { default as ArrowElbowUpLeft } from './ArrowElbowUpLeft.js';
