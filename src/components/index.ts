@@ -10,3 +10,4 @@ export { default as ArrowBendRightDown } from './ArrowBendRightDown.js';
 export { default as ArrowBendRightUp } from './ArrowBendRightUp.js';
 export { default as ArrowBendUpLeft } from './ArrowBendUpLeft.js';
 export { default as ArrowBendUpRight } from './ArrowBendUpRight.js';
+export { default as ArrowCircleDown } from './ArrowCircleDown.js';
