@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { ArrowCounterClockwise } from '../../src';
+import { ArrowDown } from '../../src';
 
 function App() {
   return (
     <div className="p-4 text-gray-900">
-      <ArrowCounterClockwise />
+      <ArrowDown />
     </div>
   );
 }

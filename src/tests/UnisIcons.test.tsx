@@ -177,3 +177,11 @@ describe('ArrowCounterClockwise', () => {
     expect(screen.getByTestId('test')).toBeVisible();
   });
 });
+
+describe('ArrowDown', () => {
+  test('should render correctly', async () => {
+    render(<UnisIcons.ArrowDown data-testid="test" />);
+
+    expect(screen.getByTestId('test')).toBeVisible();
+  });
+});
