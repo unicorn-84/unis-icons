@@ -23,6 +23,7 @@ function App() {
       <UnisIcons.ArrowCircleRight />
       <UnisIcons.ArrowCircleUp />
       <UnisIcons.ArrowCircleUpLeft />
+      <UnisIcons.ArrowCircleUpRight />
     </div>
   );
 }
