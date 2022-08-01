@@ -15,3 +15,4 @@ export { default as ArrowCircleDownLeft } from './ArrowCircleDownLeft.js';
 export { default as ArrowCircleDownRight } from './ArrowCircleDownRight.js';
 export { default as ArrowCircleLeft } from './ArrowCircleLeft.js';
 export { default as ArrowCircleRight } from './ArrowCircleRight.js';
+export { default as ArrowCircleUp } from './ArrowCircleUp.js';
