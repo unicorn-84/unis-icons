@@ -130,4 +130,12 @@ describe('UnisIcons', () => {
       expect(screen.getByTestId('test')).toBeVisible();
     });
   });
+
+  describe('ArrowCircleRight', () => {
+    test('should render correctly', async () => {
+      render(<UnisIcons.ArrowCircleRight data-testid="test" />);
+
+      expect(screen.getByTestId('test')).toBeVisible();
+    });
+  });
 });
