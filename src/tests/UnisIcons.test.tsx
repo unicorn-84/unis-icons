@@ -66,4 +66,12 @@ describe('UnisIcons', () => {
       expect(screen.getByTestId('test')).toBeVisible();
     });
   });
+
+  describe('ArrowBendRightDown', () => {
+    test('should render correctly', async () => {
+      render(<UnisIcons.ArrowBendRightDown data-testid="test" />);
+
+      expect(screen.getByTestId('test')).toBeVisible();
+    });
+  });
 });
