@@ -241,3 +241,11 @@ describe('ArrowElbowLeftUp', () => {
     expect(screen.getByTestId('test')).toBeVisible();
   });
 });
+
+describe('ArrowElbowRight', () => {
+  test('should render correctly', async () => {
+    render(<UnisIcons.ArrowElbowRight data-testid="test" />);
+
+    expect(screen.getByTestId('test')).toBeVisible();
+  });
+});
