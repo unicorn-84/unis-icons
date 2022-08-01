@@ -82,4 +82,12 @@ describe('UnisIcons', () => {
       expect(screen.getByTestId('test')).toBeVisible();
     });
   });
+
+  describe('ArrowBendUpRight', () => {
+    test('should render correctly', async () => {
+      render(<UnisIcons.ArrowBendUpRight data-testid="test" />);
+
+      expect(screen.getByTestId('test')).toBeVisible();
+    });
+  });
 });
