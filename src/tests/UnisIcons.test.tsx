@@ -313,3 +313,11 @@ describe('ArrowFatLineLeft', () => {
     expect(screen.getByTestId('test')).toBeVisible();
   });
 });
+
+describe('ArrowFatLineRight', () => {
+  test('should render correctly', async () => {
+    render(<UnisIcons.ArrowFatLineRight data-testid="test" />);
+
+    expect(screen.getByTestId('test')).toBeVisible();
+  });
+});

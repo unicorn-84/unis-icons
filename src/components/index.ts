@@ -37,3 +37,4 @@ export { default as ArrowFatDown } from './ArrowFatDown.js';
 export { default as ArrowFatLeft } from './ArrowFatLeft.js';
 export { default as ArrowFatLineDown } from './ArrowFatLineDown.js';
 export { default as ArrowFatLineLeft } from './ArrowFatLineLeft.js';
+export { default as ArrowFatLineRight } from './ArrowFatLineRight.js';
