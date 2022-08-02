@@ -28,7 +28,7 @@ const ArrowsClockwise = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M23.775 23.775a10.986 10.986 0 0 1-15.55 0l-4.25-4.237"
+      d="M23.775 23.775a10.988 10.988 0 0 1-15.55 0l-4.25-4.237"
     />
   </svg>
 );

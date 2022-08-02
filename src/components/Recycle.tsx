@@ -21,7 +21,7 @@ const Recycle = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M16 26h11a1.999 1.999 0 0 0 1.725-3l-2.988-5.175M8.775 13.5l-5.5 9.5A2 2 0 0 0 5 26h6m12.225-12.5-5.5-9.5a1.988 1.988 0 0 0-3.45 0l-3 5.175"
+      d="M16 26h11a2 2 0 0 0 1.725-3l-2.988-5.175M8.775 13.5l-5.5 9.5A2 2 0 0 0 5 26h6m12.225-12.5-5.5-9.5a1.988 1.988 0 0 0-3.45 0l-3 5.175"
     />
   </svg>
 );

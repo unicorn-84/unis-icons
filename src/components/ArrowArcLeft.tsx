@@ -21,7 +21,7 @@ const ArrowArcLeft = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M28 23a12 12 0 0 0-20.487-8.488l-4 4"
+      d="M28 23a12 12 0 0 0-20.488-8.488l-4 4"
     />
   </svg>
 );
