@@ -7,7 +7,7 @@
 ## What it is
 
 These are ReactJS icon components.
-2px stroke weight, 32x32 bounding box.
+Based on [🧜‍♀️ Moja UI - FREE Top UI Kit & Design system](https://www.figma.com/community/file/1108679668074690379)
 
 ## Getting started
 
