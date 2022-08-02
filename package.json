@@ -30,7 +30,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --silent",
     "test:ci": "jest --coverage --ci --passWithNoTests",
     "prebuild": "rimraf lib",
     "build": "tsc",
@@ -42,7 +42,8 @@
     "semantic-release": "semantic-release",
     "cm": "cz",
     "prepare": "husky install",
-    "svgr": "svgr --config-file ./src/svgr/svgr-config.json --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- assets"
+    "svgr": "svgr --config-file ./src/svgr/svgr-config.json --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- assets/icons/functional/arrows",
+    "generate": "npm run svgr && node utils/createDemo && npx prettier . -w"
   },
   "devDependencies": {
     "@svgr/cli": "6.3.1",

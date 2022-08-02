@@ -3,25 +3,25 @@ import { SVGProps } from 'react';
 
 const ArrowBendDoubleUpLeft = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width={32}
     height={32}
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      d="m10 19-6-6 6-6M16 19l-6-6 6-6"
       stroke="currentColor"
-      strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={2}
+      d="m10 19-6-6 6-6m6 12-6-6 6-6"
     />
     <path
-      d="M28 25a12 12 0 0 0-12-12h-6"
       stroke="currentColor"
-      strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={2}
+      d="M28 25a12 12 0 0 0-12-12h-6"
     />
   </svg>
 );

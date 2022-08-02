@@ -3,7 +3,7 @@ import * as UnisIcons from '../../src';
 
 function App() {
   return (
-    <div className="m-auto max-w-sm p-4 flex justify-center text-gray-900 space-x-2 flex-wrap">
+    <div className="max-w-sm m-auto p-4 flex flex-wrap text-gray-900">
       <UnisIcons.ArrowArcLeft />
       <UnisIcons.ArrowArcRight />
       <UnisIcons.ArrowBendDoubleUpLeft />
@@ -12,6 +12,114 @@ function App() {
       <UnisIcons.ArrowBendDownRight />
       <UnisIcons.ArrowBendLeftDown />
       <UnisIcons.ArrowBendLeftUp />
+      <UnisIcons.ArrowBendRightDown />
+      <UnisIcons.ArrowBendRightUp />
+      <UnisIcons.ArrowBendUpLeft />
+      <UnisIcons.ArrowBendUpRight />
+      <UnisIcons.ArrowCircleDown />
+      <UnisIcons.ArrowCircleDownLeft />
+      <UnisIcons.ArrowCircleDownRight />
+      <UnisIcons.ArrowCircleLeft />
+      <UnisIcons.ArrowCircleRight />
+      <UnisIcons.ArrowCircleUp />
+      <UnisIcons.ArrowCircleUpLeft />
+      <UnisIcons.ArrowCircleUpRight />
+      <UnisIcons.ArrowClockwise />
+      <UnisIcons.ArrowCounterClockwise />
+      <UnisIcons.ArrowDown />
+      <UnisIcons.ArrowDownLeft />
+      <UnisIcons.ArrowDownRight />
+      <UnisIcons.ArrowElbowDownLeft />
+      <UnisIcons.ArrowElbowDownRight />
+      <UnisIcons.ArrowElbowLeft />
+      <UnisIcons.ArrowElbowLeftDown />
+      <UnisIcons.ArrowElbowLeftUp />
+      <UnisIcons.ArrowElbowRight />
+      <UnisIcons.ArrowElbowRightDown />
+      <UnisIcons.ArrowElbowRightUp />
+      <UnisIcons.ArrowElbowUpLeft />
+      <UnisIcons.ArrowElbowUpRight />
+      <UnisIcons.ArrowFatDown />
+      <UnisIcons.ArrowFatLeft />
+      <UnisIcons.ArrowFatLineDown />
+      <UnisIcons.ArrowFatLineLeft />
+      <UnisIcons.ArrowFatLineRight />
+      <UnisIcons.ArrowFatLineUp />
+      <UnisIcons.ArrowFatLinesDown />
+      <UnisIcons.ArrowFatLinesLeft />
+      <UnisIcons.ArrowFatLinesRight />
+      <UnisIcons.ArrowFatLinesUp />
+      <UnisIcons.ArrowFatRight />
+      <UnisIcons.ArrowFatUp />
+      <UnisIcons.ArrowLeft />
+      <UnisIcons.ArrowLineDown />
+      <UnisIcons.ArrowLineDownLeft />
+      <UnisIcons.ArrowLineDownRight />
+      <UnisIcons.ArrowLineLeft />
+      <UnisIcons.ArrowLineRight />
+      <UnisIcons.ArrowLineUp />
+      <UnisIcons.ArrowLineUpLeft />
+      <UnisIcons.ArrowLineUpRight />
+      <UnisIcons.ArrowRight />
+      <UnisIcons.ArrowSquareDown />
+      <UnisIcons.ArrowSquareDownLeft />
+      <UnisIcons.ArrowSquareDownRight />
+      <UnisIcons.ArrowSquareIn />
+      <UnisIcons.ArrowSquareLeft />
+      <UnisIcons.ArrowSquareOut />
+      <UnisIcons.ArrowSquareRight />
+      <UnisIcons.ArrowSquareUp />
+      <UnisIcons.ArrowSquareUpLeft />
+      <UnisIcons.ArrowSquareUpRight />
+      <UnisIcons.ArrowUDownLeft />
+      <UnisIcons.ArrowUDownRight />
+      <UnisIcons.ArrowULeftDown />
+      <UnisIcons.ArrowULeftUp />
+      <UnisIcons.ArrowURightDown />
+      <UnisIcons.ArrowURightUp />
+      <UnisIcons.ArrowUUpLeft />
+      <UnisIcons.ArrowUUpRight />
+      <UnisIcons.ArrowUp />
+      <UnisIcons.ArrowUpLeft />
+      <UnisIcons.ArrowUpRight />
+      <UnisIcons.ArrowsClockwise />
+      <UnisIcons.ArrowsCounterClockwise />
+      <UnisIcons.ArrowsDownUp />
+      <UnisIcons.ArrowsHorizontal />
+      <UnisIcons.ArrowsIn />
+      <UnisIcons.ArrowsInCardinal />
+      <UnisIcons.ArrowsInLineHorizontal />
+      <UnisIcons.ArrowsInLineVertical />
+      <UnisIcons.ArrowsInSimple />
+      <UnisIcons.ArrowsLeftRight />
+      <UnisIcons.ArrowsOut />
+      <UnisIcons.ArrowsOutCardinal />
+      <UnisIcons.ArrowsOutLineHorizontal />
+      <UnisIcons.ArrowsOutLineVertical />
+      <UnisIcons.ArrowsOutSimple />
+      <UnisIcons.ArrowsVertical />
+      <UnisIcons.CaretDown />
+      <UnisIcons.CaretLeft />
+      <UnisIcons.CaretRight />
+      <UnisIcons.CaretUp />
+      <UnisIcons.CaretUpDownSort />
+      <UnisIcons.ChevronCircleDoubleDown />
+      <UnisIcons.ChevronCircleDoubleLeft />
+      <UnisIcons.ChevronCircleDoubleRight />
+      <UnisIcons.ChevronCircleDoubleUp />
+      <UnisIcons.ChevronCircleDown />
+      <UnisIcons.ChevronCircleLeft />
+      <UnisIcons.ChevronCircleRight />
+      <UnisIcons.ChevronCircleUp />
+      <UnisIcons.ChevronDoubleDown />
+      <UnisIcons.ChevronDoubleLeft />
+      <UnisIcons.ChevronDoubleRight />
+      <UnisIcons.ChevronDoubleUp />
+      <UnisIcons.ChevronDown />
+      <UnisIcons.ChevronLeft />
+      <UnisIcons.ChevronRight />
+      <UnisIcons.ChevronUp />
+      <UnisIcons.Recycle />
     </div>
   );
 }
