@@ -37,13 +37,16 @@
     "format": "prettier . -c",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "demo:dev": "cd demo && yarn dev",
-    "demo:build": "cd demo && yarn build",
+    "demo:build": "cd demo && yarn && yarn build",
     "demo:preview": "cd demo && yarn preview",
     "semantic-release": "semantic-release",
     "cm": "cz",
     "prepare": "husky install",
     "svgr": "svgr --config-file ./src/svgr/svgr-config.json --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- assets/icons/functional/arrows",
-    "generate": "npm run svgr && node utils/createDemo && npx prettier ./demo/src/App.tsx -w"
+    "generate": "npm run svgr && node utils/createDemo && npx prettier ./demo/src/App.tsx -w",
+    "website:dev": "cd website && yarn dev",
+    "website:build": "cd website && yarn && yarn build --emptyOutDir",
+    "website:preview": "cd website && yarn preview"
   },
   "devDependencies": {
     "@svgr/cli": "6.3.1",
