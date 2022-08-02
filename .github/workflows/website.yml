@@ -1,7 +1,7 @@
 name: website
 on:
   release:
-    types: [published]
+    types: [created, published]
 jobs:
   website:
     name: Website
