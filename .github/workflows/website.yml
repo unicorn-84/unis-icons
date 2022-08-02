@@ -1,7 +1,8 @@
 name: website
 on:
-  release:
-    types: [created, published]
+  push:
+    tags:
+      - 'v*'
 jobs:
   website:
     name: Website
