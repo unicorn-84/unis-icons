@@ -7,6 +7,7 @@
 ## What it is
 
 These are ReactJS icon components.
+2px stroke weight, 32x32 bounding box.
 
 ## Getting started
 
@@ -30,7 +31,7 @@ yarn add @web-uni/unis-icons
 import { ArrowArcLeft } from '@web-uni/unis-icons';
 
 const App = () => {
-  return <ArrowArcLeft size="xs" />;
+  return <ArrowArcLeft />;
 };
 ```
 
