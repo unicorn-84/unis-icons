@@ -10,7 +10,6 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:testing-library/react',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
