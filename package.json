@@ -43,7 +43,7 @@
     "cm": "cz",
     "prepare": "husky install",
     "svgr": "svgr --config-file ./src/svgr/svgr-config.json --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- assets/icons/functional/arrows",
-    "generate": "npm run svgr && node utils/createDemo && npx prettier . -w"
+    "generate": "npm run svgr && node utils/createDemo && npx prettier ./demo/src/App.tsx -w"
   },
   "devDependencies": {
     "@svgr/cli": "6.3.1",
