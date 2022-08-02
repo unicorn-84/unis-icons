@@ -1,6 +1,7 @@
 import { readdir, rename as rn, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { argv } from 'node:process';
+import { optimize } from 'svgo';
 
 (async function rename() {
   try {
@@ -16,15 +17,14 @@ import { argv } from 'node:process';
 
         await rn(join(DIR, file), newPath);
 
-        const content = await readFile(newPath, 'utf8');
+        const svgString = await readFile(newPath, 'utf8');
 
-        await writeFile(
-          newPath,
-          content.replace(
-            '<rect width="31" height="31" x=".5" y=".5" stroke="#3D90E3" stroke-dasharray="10 5" rx="4.5"/>\n',
-            ''
-          )
+        const content = svgString.replace(
+          '<rect width="31" height="31" x=".5" y=".5" stroke="#3D90E3" stroke-dasharray="10 5" rx="4.5"/>\n',
+          ''
         );
+
+        await writeFile(newPath, optimize(content).data);
       }
     }
   } catch (err) {
