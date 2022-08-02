@@ -22,7 +22,7 @@ const DIR = 'assets/icons/functional/arrows';
     
     function App() {
       return (
-        <div className="p-4 text-gray-900">
+        <div className="max-w-sm m-auto p-4 flex flex-wrap text-gray-900">
           ${components}
         </div>
       );
