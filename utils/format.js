@@ -1,6 +1,7 @@
 import { readdir, rename as rn, readFile, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join, format, basename } from 'node:path';
 import { optimize } from 'svgo';
+import camelCase from 'camelcase';
 import 'dotenv/config';
 
 (async function rename() {
@@ -10,10 +11,10 @@ import 'dotenv/config';
     const files = await readdir(DIR);
 
     for (const file of files) {
-      if (file.startsWith('Icon-')) {
-        const newName = file.slice(5);
+      if (file.startsWith('Icon')) {
+        const bn = camelCase(basename(file, '.svg'));
 
-        const newPath = join(DIR, newName);
+        const newPath = format({ dir: DIR, name: bn.slice(4), ext: '.svg' });
 
         await rn(join(DIR, file), newPath);
 
