@@ -1,11 +1,11 @@
 import { readdir, rename as rn, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { argv } from 'node:process';
 import { optimize } from 'svgo';
+import 'dotenv/config';
 
 (async function rename() {
   try {
-    const DIR = argv[2];
+    const DIR = process.env.ICONS_DIR;
 
     const files = await readdir(DIR);
 

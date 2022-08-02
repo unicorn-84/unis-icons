@@ -40,8 +40,8 @@
     "semantic-release": "semantic-release",
     "cm": "cz",
     "prepare": "husky install",
-    "svgr": "svgr --config-file ./src/svgr/svgr-config.json --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- assets/icons/functional/arrows",
-    "generate": "npm run svgr && node utils/createDemo && npx prettier ./demo/src/App.tsx -w"
+    "svgr": "svgr --config-file ./src/svgr/.svgrrc.cjs --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- $ICONS_DIR",
+    "generate": "dotenv-run-script svgr && node utils/createDemo && npx prettier ./demo/src/App.tsx -w"
   },
   "devDependencies": {
     "@svgr/cli": "6.3.1",
@@ -50,6 +50,8 @@
     "@typescript-eslint/eslint-plugin": "5.31.0",
     "@typescript-eslint/parser": "5.31.0",
     "cz-conventional-changelog": "3.3.0",
+    "dotenv": "16.0.1",
+    "dotenv-run-script": "0.2.0",
     "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsx-a11y": "6.6.1",

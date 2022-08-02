@@ -1,11 +1,11 @@
 import { readdir, writeFile } from 'node:fs/promises';
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
-
-const DIR = 'assets/icons/functional/arrows';
+import 'dotenv/config';
 
 (async function createDemo() {
   try {
+    const DIR = process.env.ICONS_DIR;
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
 
