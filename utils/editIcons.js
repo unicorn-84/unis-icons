@@ -11,24 +11,22 @@ import 'dotenv/config';
     const files = await readdir(DIR);
 
     for (const file of files) {
-      let icon = paramCase(basename(file, '.svg'));
+      if (file.startsWith('Icon-')) {
+        let icon = paramCase(basename(file, '.svg'));
 
-      if (file.startsWith('icon-')) {
-        icon = icon.slice(4);
+        const newPath = format({ dir: DIR, name: icon.slice(5), ext: '.svg' });
+
+        await rn(join(DIR, file), newPath);
+
+        const svgString = await readFile(newPath, 'utf8');
+
+        const content = svgString.replace(
+          '<rect width="31" height="31" x=".5" y=".5" stroke="#3D90E3" stroke-dasharray="10 5" rx="4.5"/>\n',
+          ''
+        );
+
+        await writeFile(newPath, optimize(content).data);
       }
-
-      const newPath = format({ dir: DIR, name: icon, ext: '.svg' });
-
-      await rn(join(DIR, file), newPath);
-
-      const svgString = await readFile(newPath, 'utf8');
-
-      const content = svgString.replace(
-        '<rect width="31" height="31" x=".5" y=".5" stroke="#3D90E3" stroke-dasharray="10 5" rx="4.5"/>\n',
-        ''
-      );
-
-      await writeFile(newPath, optimize(content).data);
     }
   } catch (err) {
     // eslint-disable-next-line no-console
