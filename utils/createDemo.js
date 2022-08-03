@@ -5,7 +5,7 @@ import 'dotenv/config';
 
 (async function createDemo() {
   try {
-    const DIR = process.env.ICONS_DIR;
+    const DIR = process.env.COMPONENTS_DIR;
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
 
@@ -14,7 +14,8 @@ import 'dotenv/config';
     let components = '';
 
     for (const file of files) {
-      components += `<UnisIcons.${basename(file, '.svg')} />\n`;
+      if (file === 'index.ts') continue;
+      components += `<UnisIcons.${basename(file, '.tsx')} />\n`;
     }
 
     const content = `import * as React from 'react';
