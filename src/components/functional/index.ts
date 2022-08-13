@@ -6,3 +6,4 @@ export * from './security&warnings/index.js';
 export * from './development/index.js';
 export * from './maps&travel/index.js';
 export * from './people/index.js';
+export * from './time/index.js';
