@@ -8,3 +8,4 @@ export * from './maps&travel/index.js';
 export * from './people/index.js';
 export * from './time/index.js';
 export * from './games/index.js';
+export * from './brands/index.js';
