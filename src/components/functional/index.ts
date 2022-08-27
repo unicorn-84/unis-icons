@@ -10,3 +10,4 @@ export * from './time/index.js';
 export * from './games/index.js';
 export * from './brands/index.js';
 export * from './education/index.js';
+export * from './office&editing/index.js';
