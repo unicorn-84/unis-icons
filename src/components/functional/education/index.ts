@@ -1,0 +1,12 @@
+export { default as BookBookmark } from './BookBookmark.js';
+export { default as BookOpen } from './BookOpen.js';
+export { default as Book } from './Book.js';
+export { default as BookmarkSimple } from './BookmarkSimple.js';
+export { default as Bookmark } from './Bookmark.js';
+export { default as Bookmarks } from './Bookmarks.js';
+export { default as ChalkboardSimple } from './ChalkboardSimple.js';
+export { default as ChalkboardTeacher } from './ChalkboardTeacher.js';
+export { default as Chalkboard } from './Chalkboard.js';
+export { default as Exam } from './Exam.js';
+export { default as GraduationCap } from './GraduationCap.js';
+export { default as Student } from './Student.js';

@@ -9,3 +9,4 @@ export * from './people/index.js';
 export * from './time/index.js';
 export * from './games/index.js';
 export * from './brands/index.js';
+export * from './education/index.js';
