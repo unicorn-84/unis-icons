@@ -13,3 +13,4 @@ export * from './education/index.js';
 export * from './office&editing/index.js';
 export * from './media/index.js';
 export * from './health&wellness/index.js';
+export * from './math&finance/index.js';
