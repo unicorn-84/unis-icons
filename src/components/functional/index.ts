@@ -15,3 +15,4 @@ export * from './media/index.js';
 export * from './health&wellness/index.js';
 export * from './math&finance/index.js';
 export * from './commerce/index.js';
+export * from './weather&nature/index.js';
