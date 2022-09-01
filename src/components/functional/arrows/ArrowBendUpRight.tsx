@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const ArrowBendUpRight = (props: SVGProps<SVGSVGElement>) => (
+const SvgArrowBendUpRight = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const ArrowBendUpRight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default ArrowBendUpRight;
+export default SvgArrowBendUpRight;

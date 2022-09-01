@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const CaretRight = (props: SVGProps<SVGSVGElement>) => (
+const SvgCaretRight = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -16,4 +16,4 @@ const CaretRight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default CaretRight;
+export default SvgCaretRight;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const ArrowUDownLeft = (props: SVGProps<SVGSVGElement>) => (
+const SvgArrowUDownLeft = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const ArrowUDownLeft = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default ArrowUDownLeft;
+export default SvgArrowUDownLeft;
