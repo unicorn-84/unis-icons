@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Warning = (props: SVGProps<SVGSVGElement>) => (
+const SvgWarning = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -20,4 +20,4 @@ const Warning = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Warning;
+export default SvgWarning;
