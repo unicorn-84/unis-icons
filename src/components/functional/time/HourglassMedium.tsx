@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const HourglassMedium = (props: SVGProps<SVGSVGElement>) => (
+const SvgHourglassMedium = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const HourglassMedium = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default HourglassMedium;
+export default SvgHourglassMedium;
