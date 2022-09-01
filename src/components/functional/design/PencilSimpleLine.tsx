@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const PencilSimpleLine = (props: SVGProps<SVGSVGElement>) => (
+const SvgPencilSimpleLine = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const PencilSimpleLine = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default PencilSimpleLine;
+export default SvgPencilSimpleLine;

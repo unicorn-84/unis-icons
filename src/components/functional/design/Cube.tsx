@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Cube = (props: SVGProps<SVGSVGElement>) => (
+const SvgCube = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const Cube = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Cube;
+export default SvgCube;

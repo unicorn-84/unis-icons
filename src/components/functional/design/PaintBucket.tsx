@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const PaintBucket = (props: SVGProps<SVGSVGElement>) => (
+const SvgPaintBucket = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const PaintBucket = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default PaintBucket;
+export default SvgPaintBucket;

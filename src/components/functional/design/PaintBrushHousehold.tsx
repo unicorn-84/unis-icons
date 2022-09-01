@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const PaintBrushHousehold = (props: SVGProps<SVGSVGElement>) => (
+const SvgPaintBrushHousehold = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const PaintBrushHousehold = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default PaintBrushHousehold;
+export default SvgPaintBrushHousehold;

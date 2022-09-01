@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const FlowArrow = (props: SVGProps<SVGSVGElement>) => (
+const SvgFlowArrow = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const FlowArrow = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default FlowArrow;
+export default SvgFlowArrow;

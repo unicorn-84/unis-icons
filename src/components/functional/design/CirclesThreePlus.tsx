@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const CirclesThreePlus = (props: SVGProps<SVGSVGElement>) => (
+const SvgCirclesThreePlus = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const CirclesThreePlus = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default CirclesThreePlus;
+export default SvgCirclesThreePlus;
