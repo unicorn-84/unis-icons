@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Cookie = (props: SVGProps<SVGSVGElement>) => (
+const SvgCookie = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -30,4 +30,4 @@ const Cookie = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Cookie;
+export default SvgCookie;

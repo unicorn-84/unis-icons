@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const CurrencyCny = (props: SVGProps<SVGSVGElement>) => (
+const SvgCurrencyCny = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const CurrencyCny = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default CurrencyCny;
+export default SvgCurrencyCny;

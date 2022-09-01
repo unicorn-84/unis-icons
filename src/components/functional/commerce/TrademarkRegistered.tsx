@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const TrademarkRegistered = (props: SVGProps<SVGSVGElement>) => (
+const SvgTrademarkRegistered = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -27,4 +27,4 @@ const TrademarkRegistered = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default TrademarkRegistered;
+export default SvgTrademarkRegistered;
