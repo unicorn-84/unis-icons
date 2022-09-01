@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Rainbow = (props: SVGProps<SVGSVGElement>) => (
+const SvgRainbow = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -28,4 +28,4 @@ const Rainbow = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Rainbow;
+export default SvgRainbow;

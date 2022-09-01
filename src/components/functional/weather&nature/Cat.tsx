@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Cat = (props: SVGProps<SVGSVGElement>) => (
+const SvgCat = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -44,4 +44,4 @@ const Cat = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Cat;
+export default SvgCat;
