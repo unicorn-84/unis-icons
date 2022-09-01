@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Chalkboard = (props: SVGProps<SVGSVGElement>) => (
+const SvgChalkboard = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -28,4 +28,4 @@ const Chalkboard = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Chalkboard;
+export default SvgChalkboard;
