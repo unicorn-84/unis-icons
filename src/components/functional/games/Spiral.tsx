@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Spiral = (props: SVGProps<SVGSVGElement>) => (
+const SvgSpiral = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const Spiral = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Spiral;
+export default SvgSpiral;

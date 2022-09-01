@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const PokerChip = (props: SVGProps<SVGSVGElement>) => (
+const SvgPokerChip = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const PokerChip = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default PokerChip;
+export default SvgPokerChip;
