@@ -40,7 +40,7 @@
     "semantic-release": "semantic-release",
     "cm": "cz",
     "prepare": "husky install",
-    "svgr": "svgr --config-file ./src/svgr/.svgrrc.cjs --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- $ICONS_DIR",
+    "svgr": "svgr --config-file ./src/svgr/.svgrrc.cjs -- $ICONS_DIR",
     "generate": "dotenv-run-script svgr && node ./utils/createDemo && npx prettier ./demo/src/App.tsx -w",
     "make": "node ./utils/editIcons && yarn generate"
   },
