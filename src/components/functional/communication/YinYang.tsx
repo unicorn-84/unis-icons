@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const YinYang = (props: SVGProps<SVGSVGElement>) => (
+const SvgYinYang = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -34,4 +34,4 @@ const YinYang = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default YinYang;
+export default SvgYinYang;
