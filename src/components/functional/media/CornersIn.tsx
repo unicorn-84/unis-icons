@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const CornersIn = (props: SVGProps<SVGSVGElement>) => (
+const SvgCornersIn = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const CornersIn = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default CornersIn;
+export default SvgCornersIn;
