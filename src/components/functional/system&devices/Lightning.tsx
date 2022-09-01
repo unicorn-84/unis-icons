@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Lightning = (props: SVGProps<SVGSVGElement>) => (
+const SvgLightning = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const Lightning = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Lightning;
+export default SvgLightning;

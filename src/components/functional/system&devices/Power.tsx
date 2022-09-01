@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Power = (props: SVGProps<SVGSVGElement>) => (
+const SvgPower = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const Power = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Power;
+export default SvgPower;

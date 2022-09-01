@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Checks = (props: SVGProps<SVGSVGElement>) => (
+const SvgChecks = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const Checks = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Checks;
+export default SvgChecks;

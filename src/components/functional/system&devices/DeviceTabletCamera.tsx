@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const DeviceTabletCamera = (props: SVGProps<SVGSVGElement>) => (
+const SvgDeviceTabletCamera = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -20,4 +20,4 @@ const DeviceTabletCamera = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default DeviceTabletCamera;
+export default SvgDeviceTabletCamera;

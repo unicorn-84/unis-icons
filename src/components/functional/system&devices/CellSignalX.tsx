@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const CellSignalX = (props: SVGProps<SVGSVGElement>) => (
+const SvgCellSignalX = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const CellSignalX = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default CellSignalX;
+export default SvgCellSignalX;
