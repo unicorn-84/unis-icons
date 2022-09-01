@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Bandaids = (props: SVGProps<SVGSVGElement>) => (
+const SvgBandaids = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -45,4 +45,4 @@ const Bandaids = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Bandaids;
+export default SvgBandaids;

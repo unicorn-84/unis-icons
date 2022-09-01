@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const ToiletPaper = (props: SVGProps<SVGSVGElement>) => (
+const SvgToiletPaper = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -37,4 +37,4 @@ const ToiletPaper = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default ToiletPaper;
+export default SvgToiletPaper;
