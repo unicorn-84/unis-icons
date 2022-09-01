@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const SmileyBlank = (props: SVGProps<SVGSVGElement>) => (
+const SvgSmileyBlank = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -22,4 +22,4 @@ const SmileyBlank = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default SmileyBlank;
+export default SvgSmileyBlank;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const UserCircle = (props: SVGProps<SVGSVGElement>) => (
+const SvgUserCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -33,4 +33,4 @@ const UserCircle = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default UserCircle;
+export default SvgUserCircle;

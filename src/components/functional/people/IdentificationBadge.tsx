@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const IdentificationBadge = (props: SVGProps<SVGSVGElement>) => (
+const SvgIdentificationBadge = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -33,4 +33,4 @@ const IdentificationBadge = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default IdentificationBadge;
+export default SvgIdentificationBadge;

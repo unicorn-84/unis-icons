@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const SmileySad = (props: SVGProps<SVGSVGElement>) => (
+const SvgSmileySad = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -33,4 +33,4 @@ const SmileySad = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default SmileySad;
+export default SvgSmileySad;

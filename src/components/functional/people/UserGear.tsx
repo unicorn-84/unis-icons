@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const UserGear = (props: SVGProps<SVGSVGElement>) => (
+const SvgUserGear = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -25,4 +25,4 @@ const UserGear = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default UserGear;
+export default SvgUserGear;
