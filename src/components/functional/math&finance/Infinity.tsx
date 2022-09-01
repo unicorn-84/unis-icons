@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-// eslint-disable-next-line no-shadow-restricted-names
-const Infinity = (props: SVGProps<SVGSVGElement>) => (
+const SvgInfinity = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -27,4 +26,4 @@ const Infinity = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Infinity;
+export default SvgInfinity;

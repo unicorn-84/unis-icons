@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Divide = (props: SVGProps<SVGSVGElement>) => (
+const SvgDivide = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -30,4 +30,4 @@ const Divide = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Divide;
+export default SvgDivide;
