@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const BracketsSquare = (props: SVGProps<SVGSVGElement>) => (
+const SvgBracketsSquare = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const BracketsSquare = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default BracketsSquare;
+export default SvgBracketsSquare;
