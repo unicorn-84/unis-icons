@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const TextOutdent = (props: SVGProps<SVGSVGElement>) => (
+const SvgTextOutdent = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const TextOutdent = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default TextOutdent;
+export default SvgTextOutdent;

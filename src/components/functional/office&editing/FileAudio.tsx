@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const FileAudio = (props: SVGProps<SVGSVGElement>) => (
+const SvgFileAudio = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -28,4 +28,4 @@ const FileAudio = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default FileAudio;
+export default SvgFileAudio;

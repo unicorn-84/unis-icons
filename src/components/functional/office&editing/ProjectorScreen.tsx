@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const ProjectorScreen = (props: SVGProps<SVGSVGElement>) => (
+const SvgProjectorScreen = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const ProjectorScreen = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default ProjectorScreen;
+export default SvgProjectorScreen;
