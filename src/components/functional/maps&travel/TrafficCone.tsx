@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const TrafficCone = (props: SVGProps<SVGSVGElement>) => (
+const SvgTrafficCone = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const TrafficCone = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default TrafficCone;
+export default SvgTrafficCone;

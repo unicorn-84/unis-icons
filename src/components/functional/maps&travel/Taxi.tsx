@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Taxi = (props: SVGProps<SVGSVGElement>) => (
+const SvgTaxi = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -33,4 +33,4 @@ const Taxi = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Taxi;
+export default SvgTaxi;

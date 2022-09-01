@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Signpost = (props: SVGProps<SVGSVGElement>) => (
+const SvgSignpost = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -19,4 +19,4 @@ const Signpost = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Signpost;
+export default SvgSignpost;

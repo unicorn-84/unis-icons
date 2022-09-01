@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const Crosshair = (props: SVGProps<SVGSVGElement>) => (
+const SvgCrosshair = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -26,4 +26,4 @@ const Crosshair = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default Crosshair;
+export default SvgCrosshair;
