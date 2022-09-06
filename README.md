@@ -1,13 +1,15 @@
 # 🦄 unis-icons
 
 > A set of SVG icons for UI development.
-> Available as basic SVG icons and via first-party React and Vue libraries.
 
 [![version](https://img.shields.io/npm/v/unis-icons)](https://www.npmjs.com/package/unis-icons) [![build workflow](https://github.com/unicorn-84/unis-icons/actions/workflows/build.yml/badge.svg)](https://github.com/unicorn-84/unis-icons/actions/workflows/build.yml) [![MIT license](https://img.shields.io/github/license/unicorn-84/unis-icons)](https://github.com/unicorn-84/unis-icons/blob/master/LICENSE) [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
 ## What it is
 
 SVG icons.
+
+Available as basic SVG icons and via a first-party React library.
+
 Based on [🧜‍♀️ Moja UI - FREE Top UI Kit & Design system.](https://www.figma.com/community/file/1108679668074690379)
 
 ## Basic usage
