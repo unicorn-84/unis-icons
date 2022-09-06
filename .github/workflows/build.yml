@@ -21,10 +21,7 @@ jobs:
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Linting
-        run: yarn lint
+        run: yarn install
 
       - name: Building
         run: yarn build
