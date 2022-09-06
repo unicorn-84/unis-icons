@@ -1,22 +1,15 @@
 {
-  "name": "@web-uni/unis-icons",
+  "name": "unis-icons",
   "version": "0.0.0-development",
-  "description": "SVG-based ReactJS icon components",
-  "type": "module",
-  "exports": {
-    ".": "./lib/index.js"
-  },
-  "main": "./lib/index.js",
+  "description": "A set of SVG icons for UI development",
   "files": [
     "lib",
     "README.md",
     "LICENSE"
   ],
   "keywords": [
-    "reactjs",
     "icons",
-    "svg",
-    "components"
+    "svg"
   ],
   "publishConfig": {
     "access": "public"
@@ -31,38 +24,22 @@
   "private": false,
   "scripts": {
     "prebuild": "rimraf lib",
-    "build": "tsc",
-    "format": "prettier . -c",
-    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
-    "demo:dev": "cd demo && yarn dev",
-    "demo:build": "cd demo && yarn && yarn build",
-    "demo:preview": "cd demo && yarn preview",
+    "build": "npm run build:brands && npm run build:flags && npm run build:functional",
+    "build:brands": "rimraf ./lib/brands && svgo --config=svgo.brands.js -q -r -f ./assets/icons/brands -o ./lib/brands",
+    "build:flags": "rimraf ./lib/flags && svgo --config=svgo.flags.js -q -r -f ./assets/icons/flags -o ./lib/flags",
+    "build:functional": "rimraf ./lib/functional && svgo --config=svgo.functional.js -q -r -f ./assets/icons/functional -o ./lib/functional",
     "semantic-release": "semantic-release",
     "cm": "cz",
     "prepare": "husky install",
-    "svgr": "svgr --config-file ./src/svgr/svgr-config.json --index-template ./src/svgr/svgr-index-template.cjs --template ./src/svgr/svgr-template.cjs -- assets/icons/functional/arrows",
-    "generate": "npm run svgr && node utils/createDemo && npx prettier ./demo/src/App.tsx -w"
+    "format": "prettier . -c"
   },
   "devDependencies": {
-    "@svgr/cli": "6.3.1",
-    "@types/react": "18.0.15",
-    "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "5.31.0",
-    "@typescript-eslint/parser": "5.31.0",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.20.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-jsx-a11y": "6.6.1",
-    "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.30.1",
     "husky": "8.0.1",
     "prettier": "2.7.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "rimraf": "3.0.2",
-    "semantic-release": "^19.0.3",
-    "svgo": "2.8.0",
-    "typescript": "4.7.4"
+    "semantic-release": "^19.0.5",
+    "svgo": "2.8.0"
   },
   "config": {
     "commitizen": {
