@@ -14,7 +14,7 @@ Based on [🧜‍♀️ Moja UI - FREE Top UI Kit & Design system.](https://www.
 
 ## Basic usage
 
-The quickest way to use these icons is to simply copy the source for the icon you need from `website` and inline it directly into your HTML:
+The quickest way to use these icons is to simply copy the source for the icon you need from [unis-icons.vercel.app](https://unis-icons.vercel.app) and inline it directly into your HTML:
 
 ```html
 <svg
